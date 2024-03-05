@@ -1,0 +1,33 @@
+.root {
+    position: relative;
+    height: 16px;
+    text-align: center;
+    max-width: 400px;
+    margin: 30px auto 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: var(--separator-color);
+    z-index: 1;
+}
+
+.text {
+    position: relative;
+    z-index: 2;
+    color: var(--separator-color);
+    background: var(--background-white);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 0 5px;
+    margin-top: 2px;
+}

@@ -1,0 +1,14 @@
+:root {
+    --form-maxWidth: 500px;
+    --background-white:#FFF;
+    --pageTitle-color: #1A1919;
+    --borders: 1px solid #D3D8DC;
+    --border-radius: 6px;
+    --separator-color: #E3E6E9;
+
+    --color-primary: #316FEA;
+    --color-error: rgb(234, 49, 49);
+    --color-errorButton: rgba(234, 49, 49, 0.51);
+    --color-secondary: #060E1E;
+    --color-placeholder:#A1ABB5;
+}

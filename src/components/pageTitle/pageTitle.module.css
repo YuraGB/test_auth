@@ -1,0 +1,8 @@
+.title {
+    color: var(--pageTitle-color);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom: 30px;
+}

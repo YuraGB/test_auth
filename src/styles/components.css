@@ -1,0 +1,112 @@
+.primary-button {
+    width: 100%;
+    height: 48px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    background-color: var(--color-primary);
+    color: var(--background-white);
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.secondary-button {
+    width: 100%;
+    height: 48px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    background-color: var(--background-white);
+    color: var(--pageTitle-color);
+    border: none;
+    border: var(--borders);
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.actions {
+    position: relative;
+}
+
+.actions > p {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.secondary-button.error,
+.primary-button.error {
+    background-color: var(--color-errorButton);
+    color: var(--background-white);
+}
+
+body {
+    margin: 0;
+    background: var(--background-white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100dvh;
+    color: var(--pageTitle-color);
+    font-family: 'Basis Grotesque Pro', sans-serif;
+}
+
+* {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+}
+
+.socialWrapper {
+    width: 100% ;
+    margin-bottom: 10px;
+}
+
+.form {
+    margin: auto;
+    max-width: 400px;
+    width: 100%
+}
+
+.input {
+    width: 100%;
+    padding: 10px 13px 12px;
+    margin: 12px 0;
+    border: var(--borders);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    height: 48px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.input.error {
+    border-color: var(--color-error);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.authWrapper {
+    width: 100%;
+    padding: 0 10px;
+}
+
+input::placeholder {
+    color: var(--color-placeholder);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+@media (min-width: 768px) {
+    .authWrapper {
+        padding-top: 55px;
+    }
+}
+

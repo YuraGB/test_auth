@@ -1,0 +1,25 @@
+.root {
+    width: 100%;
+    display: flex;
+    margin: 40px auto 0;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.button {
+    min-height: 48px;
+    border: var(--borders);
+    border-radius: var(--border-radius);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+    svg {
+        margin-right: 8px;
+    }
+}
